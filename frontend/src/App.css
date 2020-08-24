@@ -1,0 +1,32 @@
+body {
+  background-color: #343d52;
+}
+.container {
+  width: 80%;
+}
+span {
+  color: #fff;
+  font-size: 20px;
+  border: darkblue;
+  border-radius: 5px;
+  background-color: rgb(85, 78, 78);
+}
+button {
+  margin-right: 6px;
+  margin-left: 6px;
+  background: rgb(11, 113, 141);
+  border: 1px solid rgb(97, 218, 251);
+  border-radius: 4px;
+  height: 20px;
+  width: 80px;
+  color: #fff;
+  font-style: italic;
+}
+button:hover {
+  background: rgb(97, 218, 251);
+  border: 0;
+  border-radius: 5px;
+  height: 25px;
+  width: 85px;
+  color: black;
+}
