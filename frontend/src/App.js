@@ -13,7 +13,7 @@ export default class App extends Component {
     cpu1: []
   };
   getInfo = () => {
-    fetch("http://localhost:5000/api/getInfo")
+    fetch("/api/getInfo")
       .then(res => res.json())
       .then(res => {
         this.setState({
@@ -30,7 +30,7 @@ export default class App extends Component {
       })
   }
   sendInfo = (e) => {
-    fetch("http://localhost:5000/api/sendInfo", {
+    fetch("/api/sendInfo", {
       method: "POST", // *GET, POST, PUT, DELETE, etc.
       mode: "cors",
       cache: "no-cache",
